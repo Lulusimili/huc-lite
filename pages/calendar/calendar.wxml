@@ -1,0 +1,14 @@
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="../images/calendars.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+<h1>Calendar</h1>
+</view>
+</view>
+<image class="image_frame" src="{{imageUrl}}" mode="widthFix">
+ </image>
+<view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2018 lofter.cc</view>
+        </view>

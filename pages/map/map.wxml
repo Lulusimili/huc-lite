@@ -1,0 +1,16 @@
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="../images/maps.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+<h1>Map</h1>
+</view>
+</view>
+<image class="image_frame" src="{{imageUrl2}}" mode="widthFix">
+ </image>
+ <image class="image_frame" src="{{imageUrl1}}" mode="widthFix">
+ </image>
+<view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2018 lofter.cc</view>
+        </view>

@@ -1,0 +1,26 @@
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="../images/abouts.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+<h1>About</h1>
+<view>
+<text>商大Lite是由哈商大轻工新生制作，功能逐渐完善中，感谢以下大佬或项目的支持。</text>
+</view>
+<view>
+<h1>豆瓣图书 & WEUI & 文经课表</h1>
+</view>
+</view>
+<view class="page-body">
+      <view class="btn-area">
+      <button class="weui-btn" open-type="contact">使用帮助</button>
+        <button class="weui-btn" open-type="contact">联系客服</button>
+      </view>
+  </view>
+
+</view>
+
+<view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2018 lofter.cc</view>
+        </view>

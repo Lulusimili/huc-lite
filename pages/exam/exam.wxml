@@ -1,0 +1,58 @@
+<view class="page">
+    <view class="page__bd">
+        
+            <view class="page__bd" wx:for="{{exam}}"> 
+            <view class="boxs">
+        <view class="weui-cells__title">{{item[4]}}</view>
+        
+
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  课程名称
+</view>
+<view class="weui-cell__ft">
+  {{item[3]}}
+</view>
+</view>
+
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  考场
+</view>
+<view class="weui-cell__ft">
+{{item[5]}}
+</view>
+</view>
+
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  座位号
+</view>
+<view class="weui-cell__ft">
+  {{item[6]}}
+</view>
+</view> 
+
+            </view>
+        </view>
+    </view>
+<view class="weui-loadmore weui-loadmore_line">
+            <view class="weui-loadmore__tips weui-loadmore__tips_in-line">这是一条底线</view>
+        </view>
+<view wx:if="{{grade.length == 0}}"> 
+<view class="weui-msg">
+        <view class="weui-msg__icon-area">
+            <icon type="info" size="93"></icon>
+        </view>
+        <view class="weui-msg__text-area">
+            <view class="weui-msg__title">提示</view>
+            <view class="weui-msg__desc">非常抱歉，没有查询到您的考试成绩，可能您的成绩还未录入。</view>
+        </view>
+        <view class="weui-msg__extra-area">
+            <view class="weui-footer">
+                <view class="weui-footer__text">Copyright © 2018 lofter.cc</view>
+            </view>
+        </view>
+    </view>
+ </view>
+</view>

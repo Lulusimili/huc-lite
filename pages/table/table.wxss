@@ -1,0 +1,30 @@
+page,
+.page{
+    background-color:#F8F8F8;
+}
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-cells__title{
+    padding-top: 10px;
+}
+.weui-navbar{
+    background-color:#FFFFFF;
+    position:fixed;
+    top:0;
+    
+}
+.weui-tab__content{
+    padding-top: 90px;
+    text-align: center;
+}
+.colors{
+  color:#1f9baa;
+}
+text{
+  line-height: 5px;
+  font-size: 80%;
+}

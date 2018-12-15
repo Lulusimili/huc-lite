@@ -1,0 +1,10 @@
+.page__bd {
+  padding-top: 30px;
+}
+.weui-footer {
+  padding-top: 40px;
+}
+.img{
+  width: 100%;
+  padding-top: 20px;
+}

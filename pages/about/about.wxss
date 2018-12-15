@@ -1,0 +1,64 @@
+.home_top {
+	position: relative;
+	width: 100%;
+	overflow:visible;
+	text-align: center;
+	
+}
+
+.home_top:after {
+	width: 100%;
+	height: 100%;
+  overflow:auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	content: '';
+
+	background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  box-shadow: 0 10rpx 35rpx #dee1e8;
+}
+
+.imagesize{
+ display:flex;            
+ justify-content: center;        
+}
+
+.imagesize image { 
+  width: 10%;
+}
+
+h1{
+  color:white;
+  font-size: 130%;
+  line-height: 50px;
+}
+
+text{
+  color:white;
+  margin : 2px 15px 10px 15px;
+  line-height: 20px;
+}
+
+.btn-area{
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page-body{
+  padding-top: 30px;
+}
+
+.weui-footer{
+  padding-top: 30px;
+}
+
+.weui-btn{
+  color: #fff;
+  border: 1px solid #fbc2eb;
+  background-image: linear-gradient(-45deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+

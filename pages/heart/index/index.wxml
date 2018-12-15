@@ -1,0 +1,30 @@
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="/pages/images/eit.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+</view>
+<view class='weui-cell-third'>
+  <block wx:for="{{axis}}" wx:key="*this">
+    <view class='weui-cell-list'>
+ 
+      <view class='weui-cell-circle'></view>
+      <view class='weui-cell-line'>
+        <view class='ccc'>
+        <view class='weui-cell-time'>{{item.time}}</view>
+        <view class='weui-cell-name'>{{item.name}}</view>
+        <view class='weui-cell-event'><text>{{item.event}}</text></view>
+      </view>
+      </view>
+ 
+    </view>
+ 
+  </block>
+        </view>
+        <navigator url='/pages/heart/new/new' >
+<view class="round-click">
+   <view class='gg'>发布</view>
+</view>
+</navigator >
+</view>

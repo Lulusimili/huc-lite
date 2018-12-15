@@ -1,0 +1,31 @@
+<!--index.wxml -->
+<view class="page">
+  <view class="userinfo">
+  <view class="ttt">
+    </view>
+  <view class="container" wx:if="{{!hasUserInfo && canIUse}}">
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 用户授权 </button> 
+   </view>
+    <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    </view>
+       <view class="container">
+       <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{list}}" wx:key="*this">
+                <navigator url="{{item.url}}" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../images/{{item.ico}}.svg" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+  </view>
+  
+<view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2018 lofter.cc</view>
+        </view>
+    </view>
+

@@ -1,0 +1,50 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+            </view>
+
+            <view class="weui-tab__panel">
+<block wx:if="{{isshow != 0}}">
+<view class="weui-cells__title colors">周数选择器</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">当前选择</view>
+          </view>
+          <view class="weui-cell__bd colors">
+            <picker bindchange="bindZsChange" value="{{zsindex}}" range="{{array}}">
+              <view class="weui-input">   第 {{array[zsindex]}} 周</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+</block>
+            <view class="page__bd" hidden="{{activeIndex != k}}" wx:for-index="k" wx:for="{{tabs}}" wx:key="k_key">  
+        <block wx:for="{{table[k]}}" wx:for-item="items">
+            <view class="weui-cells__title colors">第{{index+1}}大节</view>
+            <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd" wx:if="{{items.name}}">
+  {{items.name}}<text>\n{{items.weeks}}\n{{items.teacher}}</text>
+</view>
+<view class="weui-cell__ft colors" wx:if="{{items.weeks}}">
+  {{items.where}}
+</view>
+</view>
+</view>
+          </block>         
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="weui-loadmore weui-loadmore_line">
+            <view class="weui-loadmore__tips weui-loadmore__tips_in-line">这是一条底线</view>
+        </view>
+</view>

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/reg/reg",
+    "pages/about/about",
+    "pages/heart/index/index",
+    "pages/heart/new/new",
+    "pages/notice/notice",
+    "pages/config/config",
+    "pages/search/search",
+    "pages/grade/grade",
+    "pages/books/books",
+    "pages/deatil/deatil",
+    "pages/more/more",
+    "pages/calendar/calendar",
+    "pages/map/map",
+    "pages/inquire/inquire",
+    "pages/inquire/result",
+    "pages/openapi/openapi",
+    "pages/exam/exam"
+  ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/config/config",
+        "text": "设置"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商大Lite",
+    "navigationBarTextStyle": "black"
+  }
+}

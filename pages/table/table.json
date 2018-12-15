@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#a6c1ee",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "今日课表"
+}

@@ -1,0 +1,65 @@
+<!--pages/openapi/openapi.wxml-->
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="../images/openapis.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+<h1>OpenApi</h1>
+</view>
+</view>
+<view class="boxs">
+<view class="weui-cells__title">接口信息</view>
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  Url
+</view>
+<view class="weui-cell__ft">
+  https://wechat.inwang.net/openapi.php
+</view>
+</view>
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  方式
+</view>
+<view class="weui-cell__ft">
+  POST
+</view>
+</view>
+</view>
+
+<view class="boxs">
+<view class="weui-cells__title">请求字段</view>
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  type
+</view>
+<view class="weui-cell__ft">
+  table / grade
+</view>
+</view>
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  name
+</view>
+<view class="weui-cell__ft">
+  学号
+</view>
+</view>
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  pass
+</view>
+<view class="weui-cell__ft">
+  教务系统密码
+</view>
+</view>
+<view class="weui-cell">
+<view class="weui-cell__bd">
+  zc
+</view>
+<view class="weui-cell__ft">
+  课表查询周次
+</view>
+</view>
+</view>

@@ -1,0 +1,33 @@
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="/pages/images/brush.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+</view>
+<view class="page__bd">
+<form bindsubmit="formSubmit">
+<view class="weui-cells__title">内容</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="请输入你想发表的内容" name="texts" auto-focus="true"  auto-height />
+                </view>
+            </view>
+        </view>
+<view class="weui-cells__title">显示名称</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="匿名昵称" name="name"/>
+                </view>
+            </view>
+</view>
+
+    <view class="weui-btn-area">
+            <button class="weui-btn" form-type="submit" hover-class="none">发布</button>
+        </view>
+    
+  </form>
+  </view>
+   </view>

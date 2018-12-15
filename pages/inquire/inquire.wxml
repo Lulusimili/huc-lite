@@ -1,0 +1,40 @@
+  <view class="page">
+    <view class="home_top">
+    <view class='imagesize'>
+  <image src="../images/inquires.svg" class='in-image' mode="widthFix" >
+  </image>
+</view>
+<h1>Inquire</h1>
+<view>
+</view>
+</view>
+<view class="page-body">
+      <form bindsubmit="formSubmit">
+<view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="text" placeholder="输入教师姓名或者课程名" />
+            </view>
+          </view>
+      </view>
+</view>
+<view class="ss">
+</view>
+<view class="page-section page-section-gap">
+        <radio-group name="type"  class="radio-group">
+          <label class="radio"><radio value="教师姓名" checked="true" />教师名</label>
+          <label class="radio"><radio value="课程名称" />课程名</label>
+        </radio-group>
+</view>
+      <view class="btn-area">
+        <button class="weui-btn" formType="submit">搜索</button>
+      </view>
+    </form>
+</view>
+
+</view>
+
+<view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2018 lofter.cc</view>
+        </view>
