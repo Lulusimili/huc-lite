@@ -25,10 +25,10 @@ Page({
       ico: 'heart',
       url: '../heart/index/index'
     }, {
-        name: '蹭课查询',
-      ico: 'inquire',
-      url: '../inquire/inquire'
-    }, {
+        name: '考场查询',
+        ico: 'exam',
+        url: '../exam/exam'
+      }, {
       name: '关于程序',
       ico: 'about',
       url: '../about/about'

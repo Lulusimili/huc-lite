@@ -41,7 +41,7 @@ Page({
 
     wx.request({
       method: 'POST',
-      url: 'https://wechat.inwang.net/api.php',
+      url: 'https://tt.inwang.net/api.php',
       data: {
         'type': 'deatil',
         'id': options.id

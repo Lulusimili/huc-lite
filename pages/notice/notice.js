@@ -21,7 +21,7 @@ Page({
     //内容
     wx.request({
       method: 'POST',
-      url: 'https://wechat.inwang.net/api.php',
+      url: 'https://tt.inwang.net/api.php',
       data: {
         'type': 'notice',
         'pages': '1'
@@ -84,7 +84,7 @@ Page({
       duration: 10000
     })
     wx.request({
-      url: 'https://wechat.inwang.net/api.php',
+      url: 'https://tt.inwang.net/api.php',
       data: {
         'type': 'notice',
         'pages': pages
@@ -92,13 +92,7 @@ Page({
       header: { 'Content-Type': 'application/x-www-form-urlencoded' },
       method: 'POST',
       success: function (res) {
-        wx.showToast({
-          title: '加载成功',
-          icon: 'success',
-          duration: 1000
-        })
-        console.log(res.data.notice)
-        console.log(notice)
+        wx.hideToast()
         that.setData({
           pages: that.data.pages - 1 + 2,
           notice: notice.concat(res.data.notice)

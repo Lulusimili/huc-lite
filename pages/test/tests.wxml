@@ -1,0 +1,2 @@
+<!--pages/test/tests.wxml-->
+<text>{{test[0]}}</text>

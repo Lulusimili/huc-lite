@@ -27,7 +27,7 @@ Page({
       success: function (res) {
         if (res.code) {
           wx.request({
-            url: "https://wechat.inwang.net/api.php",
+            url: "https://tt.inwang.net/api.php",
             header: {
               "Content-Type": "application/x-www-form-urlencoded"
             },
@@ -99,7 +99,7 @@ Page({
         success: function (res) {
           if (res.code) {
             wx.request({
-              url: "https://wechat.inwang.net/api.php",
+              url: "https://tt.inwang.net/api.php",
               header: {
                 "Content-Type": "application/x-www-form-urlencoded"
               },

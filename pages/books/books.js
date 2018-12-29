@@ -24,7 +24,7 @@ Page({
     //内容
     wx.request({
       method: 'POST',
-      url: 'https://wechat.inwang.net/api.php',
+      url: 'https://tt.inwang.net/api.php',
       data: {
         'type': 'books',
         'text': options.textData,
@@ -95,7 +95,7 @@ Page({
       duration: 10000
     })
           wx.request({
-            url: 'https://wechat.inwang.net/api.php',
+            url: 'https://tt.inwang.net/api.php',
             data: {
               'type': 'books',
               'text': text,

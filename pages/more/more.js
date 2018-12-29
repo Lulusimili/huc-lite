@@ -11,9 +11,9 @@ Page({
       ico: 'notice',
       url: '../notice/notice'
       }, {
-        name: '考场查询',
-        ico: 'exam',
-        url: '../exam/exam'
+        name: '蹭课查询',
+        ico: 'inquire',
+        url: '../inquire/inquire'
       }, {
       name: '商大地图',
       ico: 'map',
@@ -27,9 +27,9 @@ Page({
       ico: 'openapi',
       url: '../openapi/openapi'
       }, {
-      name: '待解锁',
-      ico: 'lock',
-      url: ''
+        name: '题库Betas',
+        ico: 'question',
+        url: '../question/question'
     }, {
       name: '待解锁',
       ico: 'lock',

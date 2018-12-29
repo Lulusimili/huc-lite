@@ -19,7 +19,8 @@
     "pages/inquire/inquire",
     "pages/inquire/result",
     "pages/openapi/openapi",
-    "pages/exam/exam"
+    "pages/exam/exam",
+    "pages/question/question"
   ],
   "tabBar": {
     "color": "#a9b7b7",

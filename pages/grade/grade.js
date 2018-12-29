@@ -24,7 +24,7 @@ Page({
         if (res.code) {
     wx.request({
       method: 'POST',
-      url: 'https://wechat.inwang.net/grade.php',
+      url: 'https://tt.inwang.net/api.php',
       data: {
         'type': 'grade',
         'code': res.code,
@@ -104,7 +104,7 @@ Page({
       success: function (res) {
         if (res.code) {
     wx.request({
-      url: 'https://wechat.inwang.net/grade.php',
+      url: 'https://tt.inwang.net/api.php',
       data: {
         'type': 'grade',
         'code': res.code,

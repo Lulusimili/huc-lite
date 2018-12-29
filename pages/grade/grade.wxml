@@ -20,7 +20,7 @@
   成绩
 </view>
 <view class="weui-cell__ft">
-<block wx:if="{{item[4][1]}}">{{item[4][1]+' + '+item[4][3]+'*'+item[4][4]+' = '+item[4][5]}}</block><block wx:elif="{{item[4][5]}}">{{item[4][5]}}</block><block wx:else>{{item[4][6]}}</block>
+<block wx:if="{{item[4][1]}}">{{item[4][1]+' + '+item[4][3]+'*'+item[4][4]+'% = '+item[4][5]}}</block><block wx:elif="{{item[4][5]}}">{{item[4][5]}}</block><block wx:else>{{item[4][6]}}</block>
 </view>
 </view>
 

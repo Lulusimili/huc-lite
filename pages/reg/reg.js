@@ -22,7 +22,7 @@ Page({
         if (res.code) {
     wx.request({
       method: 'POST',
-      url: 'https://wechat.inwang.net/api.php', //接口地址
+      url: 'https://tt.inwang.net/api.php', //接口地址
       data: {
         'type': 'reg',
         'name': name,

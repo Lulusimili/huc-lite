@@ -1,0 +1,55 @@
+<view class="page">
+
+    <view class="page__hd">
+        <view class="page__title">{{id+1}}. {{show.title}}    </view>
+    </view>
+
+    <view class="page__bd">
+        <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <radio-group class="group" bindchange="checkboxChange">
+          <label class="weui-cell weui-check__label" wx:if="{{show.optA}}">
+            <view class="weui-cell__hd">
+              <radio type="warn" value="A" checked="{{changed}}" color="{{color}}"></radio>
+            </view>
+            <view class="weui-cell__bd">A: {{show.optA}}</view>
+          </label>
+
+          <label class="weui-cell weui-check__label" wx:if="{{show.opbB}}">
+            <view class="weui-cell__hd">
+              <radio value="B" checked="{{changed}}" color="{{color}}"></radio>
+              </view>
+              <view class="weui-cell__bd">B: {{show.opbB}}</view>
+          </label>
+
+          <label class="weui-cell weui-check__label" wx:if="{{show.optC}}">
+            <view class="weui-cell__hd">
+              <radio value="C" checked="{{changed}}" color="{{color}}"></radio>
+              </view>
+              <view class="weui-cell__bd">C: {{show.optC}}</view>
+          </label>
+
+          <label class="weui-cell weui-check__label" wx:if="{{show.optD}}">
+            <view class="weui-cell__hd">
+              <radio value="D" checked="{{changed}}" color="{{color}}"></radio>
+              </view>
+              <view class="weui-cell__bd">D: {{show.optD}}</view>
+          </label>
+        </radio-group>
+      </view>
+      <view class="answer" wx:if="{{answers}}" style="color:{{color}};"> 正确答案是：{{answers}}</view>
+    
+    <view class="container">
+  <view style="width:46%;"><button class="weui-btn" type="primary" bindtap="minus">上一题</button></view>
+<view style="width:46%;"><button class="weui-btn" type="primary" bindtap="add">下一题</button></view>
+</view>
+
+<view class="page-section page-section-gap">
+      <view class="body-view">
+        <slider value="{{id+1}}" bindchange="slider4change" min="1" max="{{length}}" show-value/>
+      </view>
+    </view>
+
+</view>
+  </view>
+</view>
