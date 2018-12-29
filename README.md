@@ -5,7 +5,7 @@
  <img src="https://wechat.inwang.net/weapp.jpg" alt="Sample"  width="300" height="300">
 
 ---
-2018.12.12 v1.0.0更新：
+2018.12.12 v1.0.1更新：
 
  1. 更新若干
 
